@@ -1,0 +1,25 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+body {
+  padding: 40px;
+}
+
+h1 {
+  padding-bottom: 10px;
+  border-bottom: 4px solid lightgrey;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: red;
+}

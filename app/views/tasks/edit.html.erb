@@ -1,0 +1,8 @@
+<h1>Edit task</h1>
+
+<%= simple_form_for @task do |f| %>
+  <%= f.text_field :title %>
+  <%= f.text_field :details %>
+  <%= f.input :completed, as: :boolean %>
+  <%= f.submit "Edit" %>
+  <% end %>
